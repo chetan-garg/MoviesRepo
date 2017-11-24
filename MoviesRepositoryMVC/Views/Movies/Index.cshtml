@@ -1,0 +1,47 @@
+﻿@model IEnumerable<DataEntities.MovieDetails>
+
+@{
+    ViewBag.Title = "Movies";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Movies</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ID)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MovieName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MovieDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.YearOfRelease)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <th>
+            @Html.ActionLink(item.ID.ToString(), "Details", new { id = item.ID })
+        </th>
+        <td>
+            @Html.DisplayFor(modelItem => item.MovieName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MovieDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.YearOfRelease)
+        </td>
+    </tr>
+}
+
+</table>
