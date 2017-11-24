@@ -32,10 +32,12 @@ namespace MoviesRepositoryStorage
             settings.OmitXmlDeclaration = true;
             using (XmlWriter writer = XmlWriter.Create(sb, settings))
             {
+                writer.WriteStartElement("MovieDetails");
                 writer.WriteElementString("ID", details.ID.ToString());
                 writer.WriteElementString("MovieName", details.MovieName);
                 writer.WriteElementString("MovieDescription", details.MovieDescription);
                 writer.WriteElementString("YearOfRelease", details.YearOfRelease.ToString());
+                writer.WriteEndElement();
             }
             return sb.ToString();
         }

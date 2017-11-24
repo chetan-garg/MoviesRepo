@@ -36,8 +36,9 @@ namespace MoviesRepositoryStorage
                     }
                     XmlDocument doc = new XmlDocument();
                     doc.Load(xmlFile);
-                    XmlNode node = doc.CreateNode(XmlNodeType.Element, "MovieDetails", "");
-                    node.InnerXml = xml;
+                    XmlDocument nodeDoc = new XmlDocument();
+                    nodeDoc.LoadXml(xml);
+                    XmlNode node = doc.ImportNode(nodeDoc.FirstChild, true);
                     doc.DocumentElement.AppendChild(node);
                     doc.Save(xmlFile);
                 }

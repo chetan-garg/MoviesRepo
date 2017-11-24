@@ -3,25 +3,25 @@
   <MovieDetails>
     <MovieName>Thor : Ragnarok</MovieName>
     <ID>3</ID>
-    <MovieDescription>Thor the 3rd MovieDetails with THOR trying to stop ragnarok from happening.</MovieDescription>
+    <MovieDescription>Thor the 3rd in Thor series with THOR trying to stop ragnarok from happening.</MovieDescription>
     <YearOfRelease>2017</YearOfRelease>
   </MovieDetails>
   <MovieDetails>
     <MovieName>Captain America : The first Avenger</MovieName>
     <ID>2</ID>
-    <MovieDescription>Thor the 3rd MovieDetails with THOR trying to stop ragnarok from happening.</MovieDescription>
-    <YearOfRelease>2010</YearOfRelease>
+    <MovieDescription>Steve Rogers, a rejected military soldier transforms into Captain America after taking a dose of a "Super-Soldier serum". But being Captain America comes at a price as he attempts to take down a war monger and a terrorist organization.</MovieDescription>
+    <YearOfRelease>2011</YearOfRelease>
   </MovieDetails>
   <MovieDetails>
-    <MovieName>Ironman</MovieName>
+    <MovieName>Iron man</MovieName>
     <ID>1</ID>
-    <MovieDescription>Thor the 3rd MovieDetails with THOR trying to stop ragnarok from happening.</MovieDescription>
-    <YearOfRelease>2017</YearOfRelease>
+    <MovieDescription>After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.</MovieDescription>
+    <YearOfRelease>2008</YearOfRelease>
   </MovieDetails>
   <MovieDetails>
     <MovieName>Ironman 2</MovieName>
     <ID>4</ID>
-    <MovieDescription>Thor the 3rd MovieDetails with THOR trying to stop ragnarok from happening.</MovieDescription>
-    <YearOfRelease>2017</YearOfRelease>
+    <MovieDescription>With the world now aware of his identity as Iron Man, Tony Stark must contend with both his declining health and a vengeful mad man with ties to his father's legacy.</MovieDescription>
+    <YearOfRelease>2010</YearOfRelease>
   </MovieDetails>
 </Movies>
